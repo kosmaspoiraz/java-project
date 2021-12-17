@@ -6,15 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch Registration",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "Registration",
+            "projectName": "java-project_6f900e76"
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Attach to Remote Program",
+            "request": "attach",
+            "hostName": "172.31.240.1",
+            "port": "0.0"
+        },
+        {
+            "type": "java",
+            "name": "Launch GUI",
             "request": "launch",
-            "mainClass": "App",
+            "mainClass": "GUI",
             "projectName": "java-project_6f900e76"
         }
     ]
