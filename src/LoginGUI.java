@@ -80,8 +80,9 @@ public class LoginGUI implements ActionListener {
 
                 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/kosmas", "root",
                         "AEKktg96!");
-                String query = " INSERT INTO users (user_username, user_name, user_surname, user_age, user_phone, user_email, user_password, user_country, user_gender)"
-                        + " values (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                // String query = " INSERT INTO users (user_username, user_name, user_surname,
+                // user_age, user_phone, user_email, user_password, user_country, user_gender)"
+                // + " values (?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
                 // PreparedStatement Pstatement = connection.prepareStatement(query);
 
